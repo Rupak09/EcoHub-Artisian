@@ -7,6 +7,8 @@ import { ExampleNavbarThree } from '../Components/NavBarPreLogin'
 import { Link } from 'react-router-dom'
 
 export function HeroThree() {
+  const docsURL = "https://github.com/Rupak09/EcoHub-Artisian"; // Replace with your actual documentation URL
+
   return (
     <div className="relative w-full">
       <ExampleNavbarThree />
@@ -46,12 +48,15 @@ export function HeroThree() {
               Eco Hub crafts beauty from what others discard, creating a greener, brighter tomorrow.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-2">
-              <button
-                type="button"
-                className="rounded-md bg-[#617a4f] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#617a4f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
-              >
-                View Docs
-              </button>
+              {/* Link to open documentation */}
+              <Link to={docsURL} target="_blank" rel="noopener noreferrer">
+                <button
+                  type="button"
+                  className="rounded-md bg-[#617a4f] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#617a4f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                >
+                  View Docs
+                </button>
+              </Link>
               <Link to="/signup">
                 <button
                   type="button"
@@ -69,5 +74,5 @@ export function HeroThree() {
       <FeatureOne />
       <FooterThree />
     </div>
-  )
+  );
 }
