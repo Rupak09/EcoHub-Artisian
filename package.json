@@ -1,0 +1,21 @@
+{
+  "name": "ecohub---for-artisans",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd frontend && npm run dev\" \" cd backend && npm start\" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "framer-motion": "^11.0.3",
+    "react-lottie": "^1.2.4",
+    "react-toastify": "^10.0.4"
+  },
+  "devDependencies": {
+    "tailwind-scrollbar": "^3.0.5"
+  }
+}
