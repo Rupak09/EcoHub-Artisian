@@ -1,4 +1,4 @@
-# EcoHub - Market
+# EcoHub - Artisian
 
 Today, we face a big problem with a lot of waste in our society, which is harmful to people and animals. This happens because we buy and throw away things quickly, especially things we use once and then throw away. The way we get rid of our trash also makes the problem worse. Our plan is to improve how we deal with waste by turning things we use at home into new and useful things. This way, we can use them again instead of throwing them away. This not only helps the environment but also lets us create cool and useful items for our homes.
 
